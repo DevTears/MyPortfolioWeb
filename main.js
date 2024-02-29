@@ -1,3 +1,8 @@
+window.onload = function() {
+  var myModal = new bootstrap.Modal(document.getElementById('selectLanguageModal'));
+  myModal.show();
+}
+
 let mouseX = 0;
 let mouseY = 0;
 

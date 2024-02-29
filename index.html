@@ -13,6 +13,29 @@
 <body>
   
   <div id="particles-js"></div>
+  <!-- Ventana modal para seleccionar idioma -->
+  <div class="modal fade" id="selectLanguageModal" tabindex="-1" aria-labelledby="selectLanguageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="selectLanguageModalLabel">Seleccionar Idioma</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Por favor, seleccione su idioma preferido:</p>
+          <select id="language-select-modal" class="form-select" onchange="changeLanguage(this.value)">
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <!-- Agregar más opciones de idioma según sea necesario -->
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <nav class="navbar navbar-expand-lg navbar-light border-bottom my-auto mx-auto">
     <div class="container-fluid">
       <!-- Logo en el lado izquierdo -->
@@ -40,10 +63,22 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="#contacto">Contacto</a>
           </li>
+          <!-- Opción para cambiar el idioma -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Idioma
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" onclick="cambiarIdioma('es')">Español</a></li>
+              <li><a class="dropdown-item" href="#" onclick="cambiarIdioma('en')">Inglés</a></li>
+              <!-- Agrega más opciones de idioma según sea necesario -->
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  
   
   <!-- Contenido adicional debajo de la barra de navegación -->
   <div class="portada container mt-5">
@@ -87,8 +122,8 @@
       </div>
       <!-- Sección "Sobre Mí" -->
       <div id="sobre-mi" class="container mx-auto mt-5" data-aos="fade-up">
-        <h2 class="titulo text-white">Hola,</h2>
-        <p class="text-white">
+        <h2 class="titulo text-white text-center">Hola,</h2>
+        <p class="text-white text-center">
           Soy Luque Facundo Nicolás, un desarrollador web FullStack y Analista de datos especializado en Python. Me esfuerzo por ofrecer resultados excepcionales en cada proyecto.
         </p>
       </div>
