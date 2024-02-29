@@ -107,3 +107,11 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+/* Estilos para el título de la sección "Tecnologías" */
+.titulo-tecnologias {
+  font-size: 5rem; /* Tamaño grande */
+  font-weight: bold; /* Negrita */
+  opacity: 0.75; /* Opacidad al 50% */
+  font-family: 'Lexend', sans-serif
+}

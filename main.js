@@ -3,6 +3,19 @@ window.onload = function() {
   myModal.show();
 }
 
+function cambiarIdioma(idioma) {
+  // Aquí deberías tener lógica para cambiar el contenido de la página al idioma seleccionado
+  // Puedes cambiar textos, imágenes, enlaces, etc., según el idioma seleccionado
+  
+  // Ejemplo: cambiar el texto de un elemento con id "titulo"
+  if (idioma === 'es') {
+    document.getElementById('titulo').innerText = '¡Hola Mundo!';
+  } else if (idioma === 'en') {
+    document.getElementById('titulo').innerText = 'Hello World!';
+  }
+}
+
+
 let mouseX = 0;
 let mouseY = 0;
 
