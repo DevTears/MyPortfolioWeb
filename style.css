@@ -135,12 +135,6 @@ body {
   .tecnologias-section {
     margin-top: 450px;
   }
-  .columna-final {
-    display: flex;
-    gap: 130px;
-    margin-left: 35px;
-    margin-right: 100px;
-  }
   .titulo {
     font-size: 3rem;
   }
@@ -154,12 +148,6 @@ body {
   .tecnologias-section {
     margin-top: 450px;
   }
-  .columna-final {
-    display: flex;
-    gap: 130px;
-    margin-left: 35px;
-    margin-right: 100px;
-  }
   .titulo {
     font-size: 3rem;
   }
@@ -168,11 +156,6 @@ body {
 @media (min-width : 431px) {
   .tecnologias-section {
     margin-top: 393px;
-  }
-  .columna-final {
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
   }
   .titulo {
     font-size: 3rem;
