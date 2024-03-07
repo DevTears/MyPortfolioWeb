@@ -124,11 +124,11 @@ body {
 
 @media (max-width : 376px) {
   .tecnologias-section {
-    margin-top: 250px;
+    margin-top: 350px;
   }
   .columna-final {
     display: flex;
-    gap: 160px;
+    gap: 130px;
     margin-left: 35px;
     margin-right: 100px;
   }
