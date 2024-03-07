@@ -1,7 +1,7 @@
-window.onload = function() {
-  var myModal = new bootstrap.Modal(document.getElementById('selectLanguageModal'));
-  myModal.show();
-}
+//window.onload = function() {
+ // var myModal = new bootstrap.Modal(document.getElementById('selectLanguageModal'));
+  //myModal.show();
+//}
 
 // function cambiarIdioma(idioma) {
   // Aquí deberías tener lógica para cambiar el contenido de la página al idioma seleccionado

@@ -116,3 +116,8 @@ body {
   font-family: 'Lexend', sans-serif;
   margin-bottom: 10px;
 }
+/* CSS personalizado para cambiar el color de fondo del botón al hacer hover */
+.btn-hover-light:hover {
+  background-color: #333 !important; /* Cambia el color de fondo al hacer hover */
+  color: #ffffff !important; /* Cambia el color del texto al hacer hover */
+}
