@@ -122,7 +122,7 @@ body {
   color: #ffffff !important; /* Cambia el color del texto al hacer hover */
 }
 
-@media (max-width : 900px) {
+@media (max-width : 768px) {
   .tecnologias-section {
     margin-top: 250px;
   }
@@ -132,4 +132,4 @@ body {
     margin-left: 35px;
     margin-right: 100px;
   }
-  }
+}
