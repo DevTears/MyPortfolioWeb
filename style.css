@@ -135,9 +135,6 @@ body {
   .tecnologias-section {
     margin-top: 450px;
   }
-  .titulo {
-    font-size: 3rem;
-  }
 }
 @media (max-width : 370px) {
   .boton-git {
@@ -164,8 +161,5 @@ body {
 @media (min-width : 768px) {
   .tecnologias-section {
     margin-top: 100px;
-  }
-  .titulo {
-    font-size: 3rem;
   }
 }
