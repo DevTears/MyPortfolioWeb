@@ -83,12 +83,12 @@ body {
   object-fit: cover;
 }
 
-.face.html { transform: rotateY(0deg) translateZ(100px); }
-.face.css { transform: rotateY(90deg) translateZ(100px); }
-.face.js { transform: rotateY(180deg) translateZ(100px); }
-.face.python { transform: rotateY(-90deg) translateZ(100px); }
+.face.python { transform: rotateY(0deg) translateZ(100px); }
+.face.javascript { transform: rotateY(90deg) translateZ(100px); }
+.face.html { transform: rotateY(180deg) translateZ(100px); }
+.face.css { transform: rotateY(-90deg) translateZ(100px); }
 .face.java { transform: rotateX(90deg) translateZ(100px); }
-.face.react { transform: rotateX(-90deg) translateZ(100px); }
+.face.csharp { transform: rotateX(-90deg) translateZ(100px); }
 
 /* Cambia la apariencia del cursor al pasar sobre el cubo */
 .cube:hover {
@@ -109,7 +109,7 @@ body {
 }
 
 /* Estilos para el título de la sección "Tecnologías" */
-.titulo-tecnologias {
+.titulo {
   font-size: 4rem; /* Tamaño grande */
   font-weight: bold; /* Negrita */
   opacity: 0.75; /* Opacidad al 50% */
@@ -121,3 +121,15 @@ body {
   background-color: #333 !important; /* Cambia el color de fondo al hacer hover */
   color: #ffffff !important; /* Cambia el color del texto al hacer hover */
 }
+
+@media only screen and (max-width : 900px) {
+  .tecnologias-section {
+    margin-top: 250px;
+  }
+  .columna-final {
+    display: flex;
+    gap: 160px;
+    margin-left: 35px;
+    margin-right: 100px;
+  }
+  }
