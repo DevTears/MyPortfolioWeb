@@ -121,15 +121,3 @@ body {
   background-color: #333 !important; /* Cambia el color de fondo al hacer hover */
   color: #ffffff !important; /* Cambia el color del texto al hacer hover */
 }
-
-@media (max-width : 576px) {
-  .tecnologias-section {
-    margin-top: 250px;
-  }
-  .columna-final {
-    display: flex;
-    gap: 160px;
-    margin-left: 35px;
-    margin-right: 100px;
-  }
-}
