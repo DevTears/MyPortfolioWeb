@@ -124,12 +124,73 @@ body {
 
 @media (max-width : 376px) {
   .tecnologias-section {
-    margin-top: 350px;
+    margin-top: 450px;
   }
   .columna-final {
     display: flex;
     gap: 130px;
     margin-left: 35px;
     margin-right: 100px;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width : 376px) {
+  .tecnologias-section {
+    margin-top: 450px;
+  }
+  .columna-final {
+    display: flex;
+    gap: 130px;
+    margin-left: 35px;
+    margin-right: 100px;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+}
+@media (min-width : 377px) {
+  .tecnologias-section {
+    margin-top: 450px;
+  }
+  .columna-final {
+    display: flex;
+    gap: 130px;
+    margin-left: 35px;
+    margin-right: 100px;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width : 431px) {
+  .tecnologias-section {
+    margin-top: 393px;
+  }
+  .columna-final {
+    display: flex;
+    gap: 130px;
+    margin-left: 35px;
+    margin-right: 100px;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+}
+@media (min-width : 768px) {
+  .tecnologias-section {
+    margin-top: 100px;
+  }
+  .columna-final {
+    display: flex;
+    gap: 130px;
+    margin-left: 35px;
+    margin-right: 100px;
+  }
+  .titulo {
+    font-size: 3rem;
   }
 }
